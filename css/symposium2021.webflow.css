@@ -545,8 +545,29 @@ p {
   grid-template-areas: ".";
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
+  -ms-grid-rows: auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto;
+}
+
+.grid.about {
+  grid-row-gap: 0px;
+  -ms-grid-rows: auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto;
+}
+
+.grid.news {
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.grid.succesful {
   -ms-grid-rows: auto auto auto auto;
   grid-template-rows: auto auto auto auto;
+}
+
+.grid.error {
+  -ms-grid-rows: auto auto auto;
+  grid-template-rows: auto auto auto;
 }
 
 .grid-2 {
@@ -719,6 +740,7 @@ p {
 }
 
 .heading-4 {
+  margin-bottom: 20px;
   font-family: 'Varela Round', sans-serif;
   font-weight: 600;
   text-align: center;
@@ -853,7 +875,7 @@ p {
 }
 
 .heading-9 {
-  margin-bottom: 32px;
+  margin-bottom: 40px;
   font-family: Montserrat, sans-serif;
   font-weight: 600;
   text-align: center;
@@ -894,6 +916,35 @@ p {
 
 .text-block-5 {
   font-family: 'Varela Round', sans-serif;
+}
+
+.image-6 {
+  max-width: 60%;
+}
+
+.image-7 {
+  display: inline-block;
+}
+
+.flyer {
+  display: block;
+  max-width: 40%;
+  min-width: 250px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.image-8 {
+  max-width: 60%;
+  min-width: 300px;
+}
+
+.div-block-5 {
+  width: 20%;
+  height: 2px;
+  margin-bottom: 30px;
+  padding-bottom: 0px;
+  background-color: #000;
 }
 
 @media screen and (max-width: 991px) {
@@ -952,14 +1003,9 @@ p {
 
   .grid-5 {
     margin-top: 20px;
-    grid-template-areas: ". ."
-      ". ."
-      "Area Area"
-      "Area-2 Area-2"
-      "Area-3 Area-3"
-      "Area-4 Area-4";
-    -ms-grid-rows: auto auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-areas: ".";
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
   }
 
   .paragraph {
@@ -1173,13 +1219,17 @@ p {
   }
 
   .heading {
-    font-family: Montserrat, sans-serif;
+    font-family: 'Varela Round', sans-serif;
     font-weight: 500;
   }
 
   .heading-2 {
-    font-family: Montserrat, sans-serif;
+    font-family: 'Varela Round', sans-serif;
     font-weight: 500;
+  }
+
+  .image-8 {
+    min-width: 280px;
   }
 }
 
@@ -1219,6 +1269,65 @@ p {
 #w-node-_9a34a315-db7c-fef4-d731-5184c2dea7a1-31c0a207 {
   -ms-grid-column-align: auto;
   justify-self: auto;
+}
+
+#w-node-_673477d4-5090-0d4a-d635-47e69a1cedfe-31c0a207 {
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-d5600c37-e898-7876-4369-da3963a6da29-31c0a207 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_5fd899cc-d76a-402b-082e-0424f1c7c50c-31c0a207 {
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_77224f7d-3dae-42b1-2c75-bb841c52858c-31c0a207 {
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#lnk_flyer.w-node-_36ed9a86-6e31-3b34-b977-dba5faec492e-31c0a207 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -ms-grid-row-align: auto;
+  align-self: auto;
 }
 
 #w-node-_9a34a315-db7c-fef4-d731-5184c2dea79f-6f570aa8 {
