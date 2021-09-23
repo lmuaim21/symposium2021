@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sat Aug 14 2021 08:39:54 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Sep 23 2021 17:13:04 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="61002008fa0f282c31c0a207" data-wf-site="61002007fa0f281643c0a202">
 <head>
   <meta charset="utf-8">
@@ -16,6 +16,7 @@
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
   <script src="https://unpkg.com/@botpoison/browser"></script>
+  <script src="js/unload.js" async></script>
 </head>
 <body>
   <header class="nav-bar wf-section">
@@ -37,7 +38,7 @@
       </div>
     </div>
   </div>
-  <div id="mobile" class="section grey wf-section">
+  <div id="mobile" class="section grey keyfacts wf-section">
     <div class="w-container">
       <h2 class="section-title">Key Facts</h2>
       <div class="w-layout-grid grid-5"><img src="images/Time.svg" loading="lazy" width="150" height="15" alt="" id="w-node-_1624c90c-a03c-2dec-77ad-b3793b0a09f4-31c0a207" class="image-3"><img src="images/Location.png" loading="lazy" width="111" height="150" alt="" id="w-node-ccf0850e-744e-b45e-b4c8-f0d7b6c61c4c-31c0a207" class="image-4">
@@ -46,7 +47,7 @@
       </div>
     </div>
   </div>
-  <div id="mobile" class="section wf-section">
+  <div id="mobile" class="section about wf-section">
     <div class="w-container">
       <h2 class="section-title">About the Symposium</h2>
       <div class="w-layout-grid grid about">
@@ -55,8 +56,27 @@
         <h3 id="w-node-_9a34a315-db7c-fef4-d731-5184c2dea79f-31c0a207" class="heading-4">We want you!</h3>
         <p id="w-node-_9a34a315-db7c-fef4-d731-5184c2dea7a1-31c0a207" class="paragraph_home">Are you interested in novel approaches to classical medical problems? Are you curious about what´s possible with machine learning algorithms in the present medical system, and want to hear from the experts where they want to take it in the future?</p>
         <h4 class="heading-9">Visit our symposium and meet the leading figures of the field!</h4>
-        <div id="w-node-_673477d4-5090-0d4a-d635-47e69a1cedfe-31c0a207" class="div-block-5"></div>
-        <h3 id="w-node-d5600c37-e898-7876-4369-da3963a6da29-31c0a207" class="heading-4">Preliminary program</h3><img src="images/Symposium-Program.png" loading="lazy" id="w-node-_5fd899cc-d76a-402b-082e-0424f1c7c50c-31c0a207" sizes="(max-width: 479px) 280px, (max-width: 767px) 63vw, (max-width: 991px) 436.79998779296875px, 564px" alt="" srcset="images/Symposium-Program-p-500.png 500w, images/Symposium-Program.png 1022w" class="image-8">
+      </div>
+    </div>
+  </div>
+  <div id="mobile" class="section grey program wf-section">
+    <div class="w-container">
+      <h2 class="section-title">Preliminary Program</h2>
+      <div class="w-layout-grid grid program"><img src="images/AIM-Symposium-Program.png" loading="lazy" id="w-node-_30b99f55-033f-c1fb-6105-c0e635fc1e0e-31c0a207" sizes="(max-width: 991px) 47vw, 470px" srcset="images/AIM-Symposium-Program.png 500w, images/AIM-Symposium-Program.png 1022w" alt="" class="image-10"></div>
+    </div>
+  </div>
+  <div id="mobile" class="section location wf-section">
+    <div class="w-container">
+      <h2 class="section-title">Location</h2>
+      <div class="w-layout-grid grid location">
+        <div id="w-node-a892ee7c-b8cd-fb7e-5378-3ee40dd41024-31c0a207">
+          <p class="paragraph location">LMU Biomedical Center (BMC)<br>Großhaderner Str. 9 <br>82152 Planegg<br><br>
+            <a href="https://www.en.bmc.med.uni-muenchen.de/contact/directions/index.html"><strong>See directions at the official BMC website</strong></a>
+          </p>
+        </div>
+        <div><img src="images/01-Campus-im-Visier-1-März-2018.png" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 991px) 95vw, 940px" srcset="images/01-Campus-im-Visier-1-März-2018-p-500.png 500w, images/01-Campus-im-Visier-1-März-2018-p-800.png 800w, images/01-Campus-im-Visier-1-März-2018-p-1080.png 1080w, images/01-Campus-im-Visier-1-März-2018-p-1600.png 1600w, images/01-Campus-im-Visier-1-März-2018.png 2000w" alt="" class="image-9">
+          <div>© Biomedical Center Munich, LMU Munich</div>
+        </div>
       </div>
     </div>
   </div>
@@ -568,7 +588,7 @@
           </select><input type="text" class="w-input" maxlength="256" name="field" data-name="Field" placeholder="Please specify if &quot;Other&quot;" id="field"><label for="pref-2" id="spio" class="field-label-5">I prefer to join...*</label><select id="pref-2" name="pref" data-name="pref" required="" class="select-field w-select">
             <option value="0">...on site</option>
             <option value="1">...online</option>
-          </select><label class="w-checkbox checkbox-field w-clearfix"><input type="checkbox" id="ppcon" name="checkbox" data-name="Checkbox" required="" class="w-checkbox-input checkbox"><span class="checkbox-label w-form-label">I agree that my data will only be processed in the context of this years symposium. I allow LMU AIM to contact me via email regarding my registration. <br>See our <a href="privacy-policy.html" target="_blank">Privacy Policy</a> for more information.</span></label><label id="checkbox_privacypolicy" class="w-checkbox checkbox_f"><input type="checkbox" id="_checkbox_privacypolicy" name="checkbox_privacypolicy" data-name="_checkbox_privacypolicy" tabindex="-1" autocomplete="off" class="w-checkbox-input checkbox-2"><span for="_checkbox_privacypolicy" class="checkbox-label-2 w-form-label">Checkbox</span></label><input type="submit" value="REGISTER NOW" data-wait="Please wait..." class="button sign-up w-button"></form>
+          </select><label class="w-checkbox checkbox-field w-clearfix"><input type="checkbox" id="ppcon" name="checkbox" data-name="Checkbox" required="" class="w-checkbox-input checkbox"><span class="checkbox-label w-form-label">I agree that my data will only be processed in the context of this years symposium. I allow LMU AIM to contact me via email regarding my registration. <br>See our <a href="privacy-policy.html" target="_blank">Privacy Policy</a> for more information.</span></label><label id="checkbox_privacypolicy" class="w-checkbox checkbox_f"><input type="checkbox" id="_checkbox_privacypolicy" name="checkbox_privacypolicy" data-name="_checkbox_privacypolicy" tabindex="-1" autocomplete="off" class="w-checkbox-input checkbox-2"><span for="_checkbox_privacypolicy" class="checkbox-label-2 w-form-label">Checkbox</span></label><input type="submit" id = "rebu" value="REGISTER NOW" data-wait="Please wait..." class="button sign-up w-button"></form>      
         <div class="w-form-done">
           <div>Thank you! Your submission has been received!</div>
         </div>
@@ -587,7 +607,7 @@
         <h3 class="heading-7">Will there be an on-site event?</h3>
         <p class="paragraph-6">The symposium is planned as a hybrid event (online and on-site). Depending on official COVID regulations we might have to switch to a solely online events. For the on-site events we will adhere closely to the official hygiene concept.</p>
         <h3 class="heading-8">I have registered but there was no confirmation email. What should I do?</h3>
-        <p class="paragraph-2">Confirmation emails with further information on the symposium will be sent in batches. Therefore, it may take <strong>up to 3 days</strong> until the registration is confirmed. Please also check your spam folder. If you have not received a confirmation email after 3 days, please contact us via the contact button below.</p><img src="images/logo.png" loading="lazy" id="w-node-_77224f7d-3dae-42b1-2c75-bb841c52858c-31c0a207" sizes="(max-width: 767px) 57vw, (max-width: 991px) 436.79998779296875px, 564px" alt="" srcset="images/logo-p-500.png 500w, images/logo-p-800.png 800w, images/logo-p-1080.png 1080w, images/logo-p-1600.png 1600w, images/logo.png 2000w" class="image-6">
+        <p class="paragraph-2">Confirmation emails with further information on the symposium will be sent in batches. Therefore, it may take <strong>up to 3 days</strong> until the registration is confirmed. Please also check your spam folder. If you have not received a confirmation email after 3 days, please contact us via the contact button below.</p><img src="images/logo.png" loading="lazy" id="w-node-_77224f7d-3dae-42b1-2c75-bb841c52858c-31c0a207" sizes="(max-width: 479px) 56vw, (max-width: 991px) 57vw, 564px" alt="" srcset="images/logo-p-500.png 500w, images/logo-p-800.png 800w, images/logo-p-1080.png 1080w, images/logo-p-1600.png 1600w, images/logo.png 2000w" class="image-6">
       </div>
     </div>
   </div>
