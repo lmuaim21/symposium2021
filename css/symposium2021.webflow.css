@@ -1037,6 +1037,13 @@ p {
   text-align: justify;
 }
 
+.div-block-6 {
+  display: block;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media screen and (max-width: 991px) {
   .button.nav {
     margin-left: 11px;
