@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sat Oct 02 2021 18:19:20 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Nov 04 2021 22:33:55 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="61002008fa0f282c31c0a207" data-wf-site="61002007fa0f281643c0a202">
 <head>
   <meta charset="utf-8">
@@ -16,7 +16,10 @@
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
   <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-  <script type="text/javascript">var exampleCallback = function() {console.log('Order complete!');};window.EBWidgets.createWidget({widgetType: 'checkout',eventId: '178331162307',iframeContainerId: 'eventbrite-widget-container-178331162307',iframeContainerHeight: 500, onOrderComplete: exampleCallback});</script>
+  <script type="text/javascript">var exampleCallback = function() {console.log('Order complete!');};window.EBWidgets.createWidget({widgetType: 'checkout',eventId: '178331162307',iframeContainerId: 'eventbrite-widget-container-178331162307',iframeContainerHeight: 425, onOrderComplete: exampleCallback});</script>
+  <link rel="stylesheet" href="https://www.addevent.com/css/cal.events.embed.t1.css" type="text/css">
+  <script type="text/javascript" src="https://www.addevent.com/js/cal.events.embed.t1.init.js"></script>
+  <script type="text/javascript" src="https://addevent.com/libs/stc/1.0.2/stc.min.js"></script>
 </head>
 <body>
   <header class="nav-bar wf-section">
@@ -35,6 +38,7 @@
       <h1 class="hero-heading">First Symposium on<br>AI in Healthcare<br>in Munich</h1>
       <div class="button-group">
         <a href="#register_section" class="button sign-up">Register NOW</a>
+        <a href="symposiumfaq.html" target="_blank" class="button sign-up info">Info For Participants<br></a>
       </div>
     </div>
   </div>
@@ -61,15 +65,17 @@
   </div>
   <div id="mobile" class="section grey program wf-section">
     <div class="w-container">
-      <h2 class="section-title">Preliminary Program</h2>
-      <div class="w-layout-grid grid program"><img src="images/AIM-Symposium-Program.png" loading="lazy" id="w-node-_30b99f55-033f-c1fb-6105-c0e635fc1e0e-31c0a207" sizes="(max-width: 479px) 47vw, (max-width: 767px) 48vw, (max-width: 991px) 47vw, 470px" srcset="images/AIM-Symposium-Program-p-500.png 500w, images/AIM-Symposium-Program.png 1022w" alt="" class="image-10"></div>
+      <h2 class="section-title">Program</h2>
+      <div data-calendar="ge379542" data-include-timezone="false" data-no-events="No events found" class="ae-emd-cal-events" data-lbl-readmore="Read more" data-datetime-format="1" data-include-organizer="false" data-datetime-language="en_US" data-include-atc="true" data-include-countdown="false" data-stayonpage="true" data-include-moupcpicker="false" data-lbl-subscribe="Subscribe" data-events-max="50" data-include-description="true" data-default-view="upcoming" data-lbl-upcoming="Upcoming events" data-description-length="brief" data-include-stc="true" data-include-location="false"></div>
     </div>
+    <div>Please note that you will be redirected to the selected calendar providers website </div>
+    <a href="privacy-policy.html" target="_blank">Privacy Policy</a>
   </div>
   <div id="mobile" class="section location wf-section">
     <div class="w-container">
       <h2 class="section-title">Location</h2>
       <div class="w-layout-grid grid location">
-        <div><img src="images/01-Campus-im-Visier-1-März-2018.png" loading="lazy" sizes="(max-width: 479px) 75vw, (max-width: 767px) 76vw, (max-width: 991px) 95vw, 940px" srcset="images/01-Campus-im-Visier-1-März-2018-p-500.png 500w, images/01-Campus-im-Visier-1-März-2018-p-800.png 800w, images/01-Campus-im-Visier-1-März-2018-p-1080.png 1080w, images/01-Campus-im-Visier-1-März-2018-p-1600.png 1600w, images/01-Campus-im-Visier-1-März-2018.png 2000w" alt="" class="image-9">
+        <div><img src="images/01-Campus-im-Visier-1-März-2018.png" loading="lazy" sizes="(max-width: 767px) 76vw, (max-width: 991px) 582.4000244140625px, 940px" srcset="images/01-Campus-im-Visier-1-März-2018-p-500.png 500w, images/01-Campus-im-Visier-1-März-2018-p-800.png 800w, images/01-Campus-im-Visier-1-März-2018-p-1080.png 1080w, images/01-Campus-im-Visier-1-März-2018-p-1600.png 1600w, images/01-Campus-im-Visier-1-März-2018.png 2000w" alt="" class="image-9">
           <div class="text-block-6">© Biomedical Center Munich, LMU Munich</div>
         </div>
         <div>
@@ -77,7 +83,6 @@
             <a href="https://www.en.bmc.med.uni-muenchen.de/index.html" target="_blank"><strong>BMC website</strong></a>
             <a href="https://www.en.bmc.med.uni-muenchen.de/contact/directions/index.html"><strong></strong></a>
           </p>
-          <a href="https://www.en.bmc.med.uni-muenchen.de/contact/directions/index.html" target="_blank" class="button directions"><strong>Directions</strong></a>
         </div>
       </div>
     </div>
@@ -120,7 +125,7 @@
         <h3 class="heading-7">Will there be an on-site event? How can i join and are there any conditions?</h3>
         <p class="paragraph-6">The symposium is planned as a hybrid event (online and on-site). Depending on official COVID regulations we might have to switch to a solely online event. For the on-site event we will adhere closely to the official hygiene concept. Currently (September 21st 2021) you have to follow the german &quot;3G&quot;-rule to join on-site. You need a valid certificate of vaccination, certificate of recovery from COVID-19 or PCR-test <strong>(not older than 72h)</strong>. Because of limited on-site visitor capacity and COVID-19 regulations you will have to confirm your on-site participation even if you registered with on-site preference. Links to an online confirmation form will be sent two weeks before the symposium. Not respecting the official COVID regulations and the venues house rules may lead to an exclusion of the on-site event.The symposium is planned as a hybrid event (online and on-site). Depending on official COVID regulations we might have to switch to a solely online events. For the on-site events we will adhere closely to the official hygiene concept.</p>
         <h3 class="heading-8">I have an old registration via register form. Do i need an Eventbrite ticket?</h3>
-        <p class="paragraph-2"><strong>YES. </strong>Because we have limited on-site and online visitor capacity we switched our booking to Eventbrite. We cannot switch you to Eventbrite without your consent. Therefore you need to register and book a ticket there <strong>(still free of charge of course)</strong>. Also you don&#x27;t need to worry that someone else gets your spot. We saved a sufficient amount of tickets for early birds.</p><img src="images/logo.png" loading="lazy" id="w-node-_77224f7d-3dae-42b1-2c75-bb841c52858c-31c0a207" sizes="(max-width: 479px) 56vw, (max-width: 991px) 57vw, 564px" alt="" srcset="images/logo-p-500.png 500w, images/logo-p-800.png 800w, images/logo-p-1080.png 1080w, images/logo-p-1600.png 1600w, images/logo.png 2000w" class="image-6">
+        <p class="paragraph-2"><strong>YES. </strong>Because we have limited on-site and online visitor capacity we switched our booking to Eventbrite. We cannot switch you to Eventbrite without your consent. Therefore you need to register and book a ticket there <strong>(still free of charge of course)</strong>. Also you don&#x27;t need to worry that someone else gets your spot. We saved a sufficient amount of tickets for early birds.</p><img src="images/logo.png" loading="lazy" id="w-node-_77224f7d-3dae-42b1-2c75-bb841c52858c-31c0a207" sizes="(max-width: 767px) 57vw, (max-width: 991px) 436.79998779296875px, 564px" alt="" srcset="images/logo-p-500.png 500w, images/logo-p-800.png 800w, images/logo-p-1080.png 1080w, images/logo-p-1600.png 1600w, images/logo.png 2000w" class="image-6">
       </div>
     </div>
   </div>
@@ -135,7 +140,7 @@
   <div class="section partners wf-section">
     <div class="w-container">
       <div class="w-layout-grid grid partners">
-        <h1 id="w-node-c1a68c88-d20d-0563-da02-1fa12878f9b4-31c0a207">Our partners</h1><img src="images/640px-LMU_Muenchen_Logo.svg.png" loading="lazy" id="w-node-_75d958fe-9080-e4d5-df47-0d14bed4f973-31c0a207" sizes="(max-width: 479px) 75vw, (max-width: 991px) 76vw, 640px" srcset="images/640px-LMU_Muenchen_Logo.svg-p-500.png 500w, images/640px-LMU_Muenchen_Logo.svg.png 640w" alt="" class="image-11"><img src="images/Deutscher_Ärzteverlag_Logo.png" loading="lazy" id="w-node-_7515ddad-852e-5f7f-ed47-a759069119eb-31c0a207" sizes="(max-width: 479px) 84vw, (max-width: 695px) 85vw, 591px" srcset="images/Deutscher_Ärzteverlag_Logo-p-500.png 500w, images/Deutscher_Ärzteverlag_Logo.png 591w" alt="" class="image-12">
+        <h1 id="w-node-c1a68c88-d20d-0563-da02-1fa12878f9b4-31c0a207">Our partners</h1><img src="images/640px-LMU_Muenchen_Logo.svg.png" loading="lazy" id="w-node-_75d958fe-9080-e4d5-df47-0d14bed4f973-31c0a207" sizes="(max-width: 767px) 76vw, (max-width: 991px) 582.4000244140625px, 640px" srcset="images/640px-LMU_Muenchen_Logo.svg-p-500.png 500w, images/640px-LMU_Muenchen_Logo.svg.png 640w" alt="" class="image-11"><img src="images/Deutscher_Ärzteverlag_Logo.png" loading="lazy" id="w-node-_7515ddad-852e-5f7f-ed47-a759069119eb-31c0a207" sizes="(max-width: 695px) 85vw, 591px" srcset="images/Deutscher_Ärzteverlag_Logo-p-500.png 500w, images/Deutscher_Ärzteverlag_Logo.png 591w" alt="" class="image-12">
       </div>
     </div>
   </div>
@@ -143,7 +148,7 @@
     <div class="w-container">
       <div class="w-row">
         <div class="w-col w-col-6">
-          <div class="footer-text">LMU AIM 2021. All rights reserved.</div>
+          <div class="footer-text">©LMU AIM 2021</div>
         </div>
         <div class="right-footer-col w-col w-col-6">
           <a href="mailto:info@lmu-aim.de?subject=Symposium%202021%20-%20Info" class="social-icon w-inline-block"><img src="images/14-social-email_114-social-email.png" loading="lazy" alt="" class="image"></a>
