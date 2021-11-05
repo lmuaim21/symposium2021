@@ -1291,6 +1291,10 @@ p {
   margin-left: auto;
 }
 
+.image-13 {
+  max-width: 100%;
+}
+
 @media screen and (max-width: 991px) {
   .button.nav {
     margin-left: 11px;
